@@ -1,0 +1,15 @@
+//PEDIR AO USUÁRIO UM NÚMERO E DIGA SE ELE É POSITIVO, NEGATIVO OU ZERO
+
+const prompt = require('prompt-sync')(); 
+
+let num= parseInt(prompt(`Digite um número: `))
+
+if (num<0) {
+    console.log(`O número é negativo!`);
+    
+    
+} else if(num==0){
+    console.log(`O número é zero!`);
+}else{
+    console.log(`O número é positivo!`);
+}
