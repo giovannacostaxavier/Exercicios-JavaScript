@@ -2,12 +2,15 @@
 'MULTA'*/
 
 let multa = (vel)=>{
-    switch (vel) {
-        case value:
-            
-            break;
-    
+    switch (true) {
+        case vel >= 50 && vel <= 100:
+            return `Velocidade normal`
+        case vel >= 101 && vel <= 120:
+            return `Atenção`
+        case vel > 120:
+            return `Multa`
         default:
-            break;
+            return `Velocidade inválida`
+           
     }
 }
