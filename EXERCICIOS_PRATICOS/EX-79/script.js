@@ -3,7 +3,7 @@
 
 let multa = (vel)=>{
     switch (true) {
-        case vel >= 50 && vel <= 100:
+        case vel >0 && vel <= 100:
             return `Velocidade normal`
         case vel >= 101 && vel <= 120:
             return `Atenção`
@@ -14,3 +14,6 @@ let multa = (vel)=>{
            
     }
 }
+
+console.log(multa(100));
+
