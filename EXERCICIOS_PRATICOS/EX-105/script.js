@@ -3,3 +3,5 @@
 let frase = 'Eu gosto de café com café pela manhã'
 
 console.log(frase.replaceAll('café','chá'));
+
+

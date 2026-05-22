@@ -1,0 +1,11 @@
+/*CRIE UMA VARIÁVEL COM SEU NOME COMPLETO EM MINÚSCULO. EXIBA O NÚMERO DE CARACTERES SEM CONTAR OS ESPAÇOS — VOCÊ VAI PRECISAR PENSAR EM COMO REMOVER OS ESPAÇOS ANTES DE CONTAR.*/
+
+let nome = 'giovanna xavier'.replaceAll(' ','')
+console.log(nome.length);
+
+
+
+
+
+
+
