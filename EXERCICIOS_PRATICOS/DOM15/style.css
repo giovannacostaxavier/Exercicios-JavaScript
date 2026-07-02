@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* CAIXAS */
+.box {
+    width: 350px;
+    min-height: 500px;
+    background: #f8f8f8;
+    border: 3px solid #000;
+    padding: 30px;
+}
+
+/* CAIXA ESQUERDA */
+.box-left {
+    text-align: center;
+}
+
+.box-left label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.box-left input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.box-left button {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #0b3a75;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.box-left button:hover {
+    background: #092f5e;
+}
+
+/* CAIXA DIREITA */
+.radio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.radio-item {
+    background: #dcdcdc;
+    border-radius: 10px;
+    padding: 12px 15px;
+    border: 2px solid #b5b5b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio-item span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.radio-item input[type="radio"] {
+    transform: scale(1.1);
+    cursor: pointer;
+}
