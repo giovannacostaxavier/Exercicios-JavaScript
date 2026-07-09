@@ -1,0 +1,41 @@
+*,*::after,*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background: bisque;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+div > input{
+    padding: 4px;
+    margin: 10px;
+}
+div > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
